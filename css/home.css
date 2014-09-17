@@ -1,0 +1,338 @@
+#wrapper
+{
+	width: 950px;
+}
+
+#homeToolbar
+{
+	padding-bottom: 8px;
+}
+
+#paste_rich_ifr
+{
+width: 100% !important;
+}
+
+#homeTabs
+{
+	float: right;
+	padding-right: 20px;
+}
+
+#homeTabs .homeTab
+{
+	font-weight: bold;
+	float: left;
+	padding: 5px 8px;
+	cursor: pointer;
+	margin-right: 10px;
+	margin-top: 4px;
+	-webkit-border-top-left-radius: 10px;
+	-khtml-border-radius-topleft: 10px;	
+	-moz-border-radius-topleft: 10px;
+	border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-khtml-border-radius-topright: 10px;	
+	-moz-border-radius-topright: 10px;
+	border-top-right-radius: 10px;
+}
+
+
+#homeTabs .homeTab, 
+#homeTabs .homeTab a
+{
+	color: #888;
+	text-decoration: none;
+}
+
+#homeTabs .homeTab.tabactive
+{
+	padding: 7px 10px;
+	margin-top: 0px;
+}
+
+#homeTabs .homeTab.tabactive,
+#homeTabs .homeTab.tabactive a
+{
+	color: #2885ca;
+	text-decoration: none;
+}
+
+
+.pastebox
+{
+	width: 915px;
+	height: 300px;
+}
+
+#input_text
+{
+	font-family: monospace;
+}
+
+#pasteOptions
+{
+	padding: 5px 15px;
+	display: none;
+}
+
+#paste_password
+{
+	width: 130px;
+}
+
+#paste_title
+{
+	width: 200px;
+}
+
+#pasteOptions
+{
+	position: relative;
+}
+
+.paste_option
+{
+	margin-bottom: 10px;
+	float: left;
+	margin-right: 45px;
+	margin-left: 15px;
+
+}
+
+.codeOpt
+{
+	margin-right: 0;
+}
+
+.paste_opt
+{
+	font-weight: bold;
+	font-size: 14px;
+	margin-right: 20px;
+	float: left;
+}
+
+.paste_optd
+{
+	float: left;
+	text-align: center;
+}
+
+
+.pasteOptsLeft,
+.pasteOptsRight
+{
+	float: left;
+	width: 400px;
+}
+
+.optOptional
+{
+	font-size: 11px;
+	color: #777;
+	font-size: normal;
+}
+
+#pageIncreasers
+{
+	float: right;
+	position: relative;
+	top: -40px;
+	left: 50px;
+}
+
+
+      .CodeMirror-line-numbers {
+        width: 2.2em;
+        color: #aaa;
+        background-color: #eee;
+        text-align: right;
+        padding-right: .3em;
+        font-size: 10pt;
+        font-family: monospace;
+        padding-top: .4em;
+      }
+      
+      #_code_text
+      {
+      
+		background: #fff;
+		border: 1px solid #bbb;
+		color: #444;
+		padding: 1px;
+		font-family: inherit;
+		font-size: 13px;
+		-webkit-border-radius: 5px;
+		-khtml-border-radius: 5px;	
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+      }
+
+#history_fields
+{
+	padding-top: 5px;
+}
+      
+#history_fields .field
+{
+	float: left;
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: 10px;
+	padding: 5px;
+	text-transform: uppercase;
+	color: #4b7ca0;
+}
+
+.historyTitle
+{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+      
+.history_row .field
+{
+	float: left;
+	border-top: 1px solid #84A8C2;
+	font-size: 14px;
+	margin-right: 10px;
+	padding: 10px 5px;
+}
+
+
+.history_row
+{
+	color: #444;
+}
+
+.history_row a
+{
+	color: #4b7ca0;
+}
+
+
+.field_id
+{
+	width: 160px;
+}
+
+.field_added
+{
+	width: 100px;
+	font-weight: bold;
+}
+
+.field_views
+{
+	width: 75px;
+	overflow: hidden;
+	font-weight: bold;
+}
+
+.field_details
+{
+	width: 500px;	
+}
+
+.history_row .field_views
+{
+	text-align: center;
+}
+
+.history_row .field_added .year
+{
+	line-height: 14px;
+	font-size: 14px;
+	text-align: center;
+}
+
+.history_row .field_added .day
+{
+	font-size:18px;
+	line-height: 18px;
+	text-align: center;
+	
+}
+
+.history_row .field_added .month
+{
+	line-height: 14px;
+	font-size: 14px;
+	text-align: center;
+	text-transform:uppercase;
+}
+
+.history_row .field_id
+{
+	font-size: 12px;
+}
+
+.history_row .field_details
+{
+	font-size: 12px;
+}
+
+.field_actions
+{
+	padding-top: 5px;
+}
+
+#pasteTitle
+{
+	margin:0;
+	margin-right: 10px;
+}
+
+.rte-menu
+{
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;	
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-color:#FFFFFF;
+	border:1px solid #bbb;
+	vertical-align: middle;
+	font-size:11px;
+	margin:0;
+	margin-left: 3px;
+	overflow:hidden;
+	display:inline;
+	padding: 0 !important;
+	cursor: pointer;
+	padding: 3px 2px 6px 4px !important;
+}
+
+.rte-menu-span
+{
+	background-color:#EFF3F7;
+	border:1px solid #999999;
+	font-size:11px;
+	padding:1px !important;
+	text-align:left;
+	display: none;
+	padding: 1px;
+}
+
+.rte-menu-item
+{
+	background-color:#F2F2F2;
+	border-bottom:1px dotted #999999;
+	cursor:pointer;
+	padding:1px 1px 4px !important;
+}
+
+.rte-menu-color 
+{
+	border:1px solid #FFFFFF;
+	cursor:pointer;
+	padding:0px  !important;
+}
+
+.rte-menu-color div
+{
+	padding: 1px !important;
+	width:16px;
+	height: 16px;
+}

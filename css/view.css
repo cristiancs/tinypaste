@@ -1,0 +1,47 @@
+#pasteFrame
+{
+	width: 100%;
+	border: 0;
+}
+
+#frameParent
+{
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+
+
+#wrapper
+{
+	width: 95%;
+}
+
+#buttonRow
+{
+	position: relative;
+	right: 20px;
+	float: right;
+	top: -40px;
+}
+
+#pastecontainer
+{
+	top: -20px;
+	position: relative;
+}
+
+#pasteInfo
+{
+	float: right;
+	margin-right: 15px;
+	padding: 3px 12px;
+	padding-bottom: 8px;
+	padding-right: 15px;
+	max-width: 250px;
+	min-width: 150px;
+}
+
+#pasteLinks
+{
+	float: left;
+}

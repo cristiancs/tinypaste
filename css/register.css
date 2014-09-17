@@ -1,0 +1,39 @@
+.registerField
+{
+	font-weight: bold;
+	font-size: 14px;
+	float: left;
+	width: 215px;
+}
+
+#loginField
+{
+	width: 100px;
+}
+
+.registerOption
+{
+	float: left;
+}
+
+
+.smallDetail
+{
+	font-size: 10px;
+}
+
+#registrationForm
+{
+	padding: 10px 40px;
+}
+
+.regRow
+{
+	padding-bottom: 10px;
+}
+
+#registration
+{
+	padding: 0 40px;
+	padding-top: 80px;
+}

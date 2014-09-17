@@ -1,0 +1,15 @@
+RewriteEngine on
+RewriteRule ^login$ login.php
+RewriteRule ^registrar$ registrar.php
+RewriteRule ^register.php$ registrar.php
+RewriteRule ^portal$ index.php
+RewriteRule ^paste-([^/]*)$ paste.php?slug=$1
+RewriteRule ^paste-([^/]*)/$ paste.php?slug=$1
+RewriteRule ^paste-([^/]*)/([^/]*)$ paste.php?slug=$1&error=$2
+RewriteRule ^editar-([^/]*)$ editar.php?slug=$1
+RewriteRule ^paste-([^/]*)/fullscreen/$ fullscreen.php?key=$1
+RewriteRule ^paste-([^/]*)/save/$ save.php?key=$1
+RewriteRule ^admin$ admin.php
+RewriteRule ^admin/([^/]*)/([^/]*)$ admin.php?key=$1&action=$2
+RewriteRule ^editar/([^/]*)$ index.php?key=$1&action=edit
+RewriteRule ^myaccount$ myaccount.php

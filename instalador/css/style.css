@@ -1,0 +1,49 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+body{
+	background: url(../img/blanco.jpg);
+	margin: 0px;
+}
+form{
+	width: 80%;
+	margin: auto;
+	text-transform: uppercase;
+	box-shadow: 0px 0px 10px #ccc;
+	font-family: 'Oswald', sans-serif;
+	background: rgba(255,255,255,.8);
+	padding:20px;
+	text-align: center;
+}
+input[type="url"], input[type="text"]{
+	border: 1px solid #ccc;
+	width: 300px;
+	height: 50px;
+}
+textarea{
+	width: 300px;
+	height: 50px;
+}
+.unidos{
+	display: inline-block;
+	width: 450px;
+}
+.abajo{
+	width: 900px;
+}
+.abajo table{
+	display: inline-block;
+}
+input[type="submit"]{
+	width: 400px;
+	text-transform: uppercase;
+	color: #fff;
+	height: 40px;
+	font-size: 24px;
+	display: block;
+	border:1px solid #1679D0;
+	background: #61B6FF;
+	margin: auto;
+	margin-top: 30px;
+}
+input[type="submit"]:hover{
+	background: #3B94E1;
+}
